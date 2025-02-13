@@ -15,7 +15,7 @@ The VM is setup such that it performs IP forwarding, all packets are sent to the
 We update the IP tables to redirect and manage DNS traffic, both TCP and UDP packets. We also add in a command that updates the source address of the IP address of the DNS response to make it seem like it came from a legitimate DNS server (for example 8.8.8.8).
 
 We apply the attack using the ettercap software as will be detailed below.
-* Implementation
+* Implementation 
 We have two VMs, one running Kali Linux and the other running a VM called Metasploitable. These VMs exist in a virtual network with the network address 10.0.2.0
 * Setup
 ** IP Address Info
